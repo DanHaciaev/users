@@ -16,11 +16,11 @@ export default function Users() {
 
     return (
         <main>
-            <div className="grid grid-rows-5 grid-flow-col gap-4 w-[85rem] mb-8">
+            <div className="mx-8 my-8 grid grid-cols-2 gap-[16px] mb-8">
                 {users.map((users, index) => (
                     <div
                         key={users.id}
-                        className={`flex bg-white w-[41rem] h-[12rem] mt-8 ml-8 justify-between`}
+                        className={`flex bg-white h-[12rem] justify-between`}
                         id={`Profile${index + 1}`}>
                         <Image
                             src={`/img${index + 1}.jpg`}
