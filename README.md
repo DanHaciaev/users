@@ -19,3 +19,8 @@ This is a simple web application that integrates with an external API to retriev
 **User list**  
 
 ![User list](./public/users.png)
+
+## Link
+
+You can check out the live version of the project here:
+👉 [Users](https://users-eight-navy.vercel.app/)
